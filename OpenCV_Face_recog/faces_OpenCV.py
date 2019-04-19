@@ -12,7 +12,7 @@ with open("labels.pickle", 'rb') as f:
 
 cap = cv2.VideoCapture(0)
 
-
+# на выбор, можно использовать одну из нижеприведенных функций для изменения размера окна вёбкамеры
 def make_1080p():
     cap.set(3, 1920)
     cap.set(4, 1080)
